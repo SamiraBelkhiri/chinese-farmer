@@ -1,0 +1,84 @@
+body{
+    font-family: 'open sans', sans-serif;
+}
+
+p {
+    font-family: Serif;
+    letter-spacing: 2px;color:#5c5031;
+    font-size: medium;
+}
+
+a {
+    font-size: large;
+}
+
+a:visited {
+    color:darkgreen
+}
+
+a:hover {
+    color:red;
+}
+body{ background-color: burlywood;
+
+    max-width: 90%;
+    margin-left: 10%;
+    margin-right: 10%;
+    background: url("backgroundpic.jpg") no-repeat center center fixed;
+    -webkit-background-size:cover;
+    -moz-background-size:cover;
+    background-size:cover;
+
+}
+blockquote {
+    font-size: 160%;
+    background-color: lightgray;
+    border-left:solid 3px;
+    padding-left: 30px;
+    margin: 80px 0 80px 0;
+
+}
+.neighbors { color: darkgreen;
+
+}
+img {float:right;
+margin-bottom: 5%;
+    margin-left: 5%;
+}
+
+
+.farmer {
+    color:purple;
+}
+
+header > h1  {
+background-color: yellow;
+    text-align: center;
+}
+selector nth-character(good){ text-transform: uppercase;
+
+}
+.good {
+    text-transform: uppercase;
+    color:green;
+}
+
+.bad {
+    text-transform: uppercase;
+    color:red;
+
+}
+
+tr.d0 td {
+    background-color: grey;
+    color: black;
+}
+tr.d1 td {
+    background-color: white;
+    color: black;
+}
+.notification {
+    bottom: 0;
+    right:0;
+    position: fixed;
+}
